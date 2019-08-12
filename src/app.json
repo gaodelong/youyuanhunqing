@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/aboutUs-detail/main",
+    "pages/all-us/main",
+    "pages/all-works/main",
+    "pages/partner/main",
+    "pages/partner-detail/main",
+    "pages/target-date/main",
+    "pages/contact-us/main"
+  ],
+  "window": {
+    "backgroundColor": "#f6f6f6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#BC4B31",
+    "navigationBarTitleText": "友缘文化传媒",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "backgroundColor": "#BC4B31",
+    "selectedColor": "#fff",
+    "borderStyle": "white",
+
+    "list": [
+      {
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home_active.png"
+    }, {
+      "text": "合作伙伴",
+      "pagePath": "pages/partner/main",
+      "iconPath": "static/tabs/partner.png",
+      "selectedIconPath": "static/tabs/partner_active.png"
+    },
+      {
+        "text": "档期预定",
+        "pagePath": "pages/target-date/main",
+        "iconPath": "static/tabs/wechat.png",
+        "selectedIconPath": "static/tabs/wechat_active.png"
+      },
+      {
+        "text": "联系我们",
+        "pagePath": "pages/contact-us/main",
+        "iconPath": "static/tabs/gift.png",
+        "selectedIconPath": "static/tabs/gift_active.png"
+      }
+
+    ],
+    "position": "bottom"
+  },
+
+  "usingComponents": {
+    "van-button": "static/vant/button/index",
+    "van-icon": "static/vant/icon/index",
+    "van-dialog": "static/vant/dialog/index",
+    "van-rate": "static/vant/rate/index",
+    "van-field": "static/vant/field/index",
+    "van-datetime-picker": "static/vant/datetime-picker/index",
+    "van-action-sheet": "static/vant/action-sheet/index",
+    "van-cell": "static/vant/cell/index",
+    "van-cell-group": "static/vant/cell-group/index"
+  }
+}
